@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="bg">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1200</width>
+     <height>800</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>bg.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="list">
+   <property name="geometry">
+    <rect>
+     <x>920</x>
+     <y>350</y>
+     <width>201</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:none;
+border-bottom:2px solid rgba(46,82,101,200);
+padding-bottom:7px;
+color:rgb(255, 255, 255);
+background-color:rgb(0, 0, 0);</string>
+   </property>
+   <property name="placeholderText">
+    <string>Select your city</string>
+   </property>
+   <property name="duplicatesEnabled">
+    <bool>false</bool>
+   </property>
+   <item>
+    <property name="text">
+     <string>Cultural Event</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Financial</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Medical</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Mental Health</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Death of a relative</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sports</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Weather</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="holder">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>240</y>
+     <width>291</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:50px;
+background-color:rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l1">
+   <property name="geometry">
+    <rect>
+     <x>900</x>
+     <y>280</y>
+     <width>241</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">padding-bottom:7px;
+color:rgb(255, 255, 255);
+background-color:rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>Select Your Excuse</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="b1">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>450</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:10px;
+border:2px solid rgba(46,82,101,200);
+padding-bottom:7px;
+color:rgb(255, 255, 255);
+background-color:rgb(0, 0, 0);
+</string>
+   </property>
+   <property name="text">
+    <string>Submit</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="holder_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>50</y>
+     <width>291</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:50px;
+background-color:rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l1_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>90</y>
+     <width>271</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">padding-bottom:7px;
+color:rgb(255, 255, 255);
+background-color:rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>This software will generate an application requesting attendance to your college's official, based on the excuse you select.</string>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>bg</zorder>
+  <zorder>holder</zorder>
+  <zorder>list</zorder>
+  <zorder>l1</zorder>
+  <zorder>b1</zorder>
+  <zorder>holder_2</zorder>
+  <zorder>l1_2</zorder>
+ </widget>
+ <resources>
+  <include location="rsc.qrc"/>
+ </resources>
+ <connections/>
+</ui>
